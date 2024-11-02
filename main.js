@@ -17,3 +17,4 @@ function setupCounter() {
   document.querySelector("#increment").addEventListener("click", increment);
   document.querySelector("#decrement").addEventListener("click", decrement);
 }
+
