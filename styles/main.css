@@ -295,14 +295,15 @@ img:hover {
 
 .paws-image {
   position: fixed;
-  top: 2rem;       /* Distance from the top of the viewport */
+  top: -3rem;       /* Distance from the top of the viewport */
   right: 1rem;     /* Distance from the right side of the viewport */
-  width: 15rem;    /* Adjust size as needed */
+  width: 14rem;    /* Adjust size as needed */
   opacity: 0.8;    /* Optional: make the trail slightly transparent */
+  transform: rotate(-25deg)
 }
 
 .no-hover:hover{
-  transform: none;
+  transform: rotate(-25deg) scale(1);
 }
 
 
