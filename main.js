@@ -54,3 +54,7 @@ function showPreviousImage() {
 function updateImage() {
   slideImage.src = images[currentIndex];
 }
+
+// Attach functions to the global window object to make them accessible
+window.showNextImage = showNextImage;
+window.showPreviousImage = showPreviousImage;
